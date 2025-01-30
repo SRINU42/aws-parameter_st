@@ -5,7 +5,7 @@ resource "aws_ssm_parameter" "param" {
   value = var.param[count.index].value
 }
 
-variabale "param" {
+variable "param" {
     default = {
         {name = "demo1",value = "demo1", type = "string"} ,
         {name = "demo2",value = "demo2", type = "string"}
