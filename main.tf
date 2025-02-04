@@ -24,7 +24,7 @@ variable "param" {
         { name = "roboshop.dev.payment.amqp_host", value = "rabbitmq-dev.erobo.online", type = "String" },
         { name = "roboshop.dev.payment.amqp_user", value = "roboshop", type = "String" },
         { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.erobo.online:8080", type = "String" },
-        { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.erobo.onlinep", type = "String" },
+        { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.erobo.online", type = "String" },
         { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
         { name = "roboshop.dev.user.redis_host", value = "redis-dev.erobo.online", type = "String" },
         { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.erobo.online:27017/users", type = "String" },
